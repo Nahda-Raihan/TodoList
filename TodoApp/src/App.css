@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  background-color:#EFDCCC;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-family:'Times New Roman', Times, serif;
+  display: flex;
+}
+.todo-app-container{
+width: 500px;
+height: auto;
+text-align: center;
+justify-content: center;
+align-items: center;
+background-color:#eed6c2;
+border-radius: 35px;
+box-shadow:0px 0px 10px -4px;
+}
+.input-todo{
+width: 300px;
+border-radius: 20px;
+border: solid blanchedalmond;
+background-color:black;
+padding: 20px;
+color: blanchedalmond;
+height: 40px;
+margin-left: 75px; 
+ box-shadow: 5px 5px 10px;
+box-shadow:inset -5px -5px -5px 20px burlywood
+inset 3px 5px 10px blanchedalmond
+}
+.input{
+  border-radius: 20px;
+  border: solid #D3C3B2;
+  color: blanchedalmond;
+  padding: 5px;
+}
+.task-add-button{
+  background-color:black;
+  cursor: pointer;
+  color:#D3C3B2;
+  border-radius: 25px;
+  border: solid black;
+  cursor: pointer;
+  float: right;
+
+}
+.task-add-button:hover{
+  transform: scale(1.10);
+}
+h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color:black;
+  cursor: pointer;
+}
+h2:hover{
+  transform: scale(1.15);
+  color: beige;
+}
+ul{
+
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li{
+  list-style: none;
+  background-color: black;
+  padding: 7px;
+  border-radius: 30px;
+  color: blanchedalmond;
+  margin-bottom: 10px;
+  height: 25px;
+  width: 300px;
+  margin-left: 70px;
+  
+}
+.list-tasks{
+  padding: 10px;
+  margin: 10px;
+}
+.delete-button{
+  color:black;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+  float: right;
+  background-color: #D3C3B2;
+  height: 30px;
+  width: 68px;
+  text-align: center;
+  padding: 0px;
+  margin-top:-2px;
+  margin-right: -3px; 
+}
+input[type='checkbox']:checked + span {
+  color: rgb(98, 57, 57);
+  text-decoration: line-through;
+}
+
+ @media screen and (max-width: 700px) {
+ .todo-app-container {
+    width: 100%; 
+    justify-content: center;
+    align-items:center ;
+    justify-items: center;
+  }
+} 
+@media screen and (max-width: 300px) {
+  .input {
+     width: 60%; 
+   }
+ } 
+
+/* box-shadow:inset -3px -3px -3px 7px #ffffffb0
+inset 3px 3px 5px white */
+
+
